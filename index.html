@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Пример веб-страницы</title>
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="resources/css/normalize.css">
+  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+  <link rel="stylesheet" href="resources/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="resources/dist/styles.min.css">
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="nav">
+            <ul>
+              <li>
+                <a href="#">Личная информация</a>
+              </li>
+              <li>
+                <a href="#">Опыт</a>
+              </li>
+              <li>
+                <a href="#">О себе</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="ancets">
+      <div class="container text">
+        <div>
+          Анкета
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="align-text">
+        <div class="icon">
+          <img src="resources/img/icon.png" alt="">
+        </div>
+        <div class="title ">
+          Личная информация
+        </div>
+      </div>
+
+      <div>
+        <form class="form">
+          <div class="form__items align-text">
+            <input type="text" placeholder="ФИО">
+            <select>
+              <option>Год рождения</option>
+            </select>
+            <input type="text" placeholder="Место">
+            <input type="text" placeholder="Скайп">
+            <input type="text" placeholder="EMAIL">
+          </div>
+
+          <div>
+            <div class="align-text">
+              <div class="icon">
+                <img src="resources/img/icon2.png" alt="">
+              </div>
+              <div class="title">
+                Расскажите о своем опыте
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row checkbox-form">
+                <div class="experience-wrapper">
+                  <div class="experience__checkboxes">
+                    <label class="checkbox-container">БЭМ/OOCSS
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Stylus/LESS/SASS
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Работаю с SVG
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="experience-wrapper">
+                  <div class="experience__checkboxes">
+                    <label class="checkbox-container">Верстаю семантично
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">ES2015/ES2016
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Gulp/GRUNT
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="experience-wrapper">
+                  <div class="experience__checkboxes">
+                    <label class="checkbox-container">Webpack
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">jQuery
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Ипользую Git
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="textaerea align-text">
+            <div class="icon">
+              <img src="resources/img/icon3.png" alt="">
+            </div>
+            <div class="title">
+              Расскажите о себе
+            </div>
+            <div  class="textaerea__text">
+              Напишите несколько предложений, чем привлекла наша вакансия <br> и что вы ожидаете от работы у нас.
+            </div>
+            <textarea class="textaerea__input" name="" id="" cols="35" rows="5" placeholder="Понравилась тем, что..."></textarea>
+          </div>
+
+        </form>
+        <div class="form__button align-text">
+          <button type="submit" class="btn">Готово</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
