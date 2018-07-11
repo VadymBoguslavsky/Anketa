@@ -1,1 +1,1 @@
-[Anketa](https://vadymboguslavsky.github.io/anketa/)
+[Anketa](https://vadymboguslavsky.github.io/Anketa/)
